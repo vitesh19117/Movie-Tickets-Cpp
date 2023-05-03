@@ -1,0 +1,52 @@
+
+ 1.MOVIE TICKET CALCULATION: 
+In a multiplex theatre, there is a discount scheme announced where one gets a 10% discount on the total cost of tickets when there is a bulk booking of more than 20 
+tickets, and a discount of 2% on the total cost of tickets if a special coupon card is submitted. Develop a program to find the total cost as per the scheme. 
+The cost of the king class ticket is Rs.75 and queen class is Rs.150. Refreshments can also be opted by paying an additional of Rs. 50 per member. 
+Hint: k-king and q-queen and You have to book minimum of 5 tickets and maximum of 40 at a time. If fails display "Minimum of 5 and Maximum of 40 Tickets". 
+If circle is given a value other than 'k' or 'q' the output should be "Invalid Input". 
+The ticket cost should be printed exactly to two decimal places. 
+
+Sample Input 1: Enter the no of ticket:35 
+                Do you want refreshment: y 
+                Do you have coupon code: y 
+                Enter the circle: k 
+Sample Output 1: Ticket cost:4065.25 
+Sample Input 2: Enter the no of ticket:1 
+Sample Output 2: Minimum of 5 and Maximum of 40 Tickets 
+
+
+2. Find and Replace:
+Santhosh a famous news editor, has daily responsibility of deciding which news stories are printed in the paper. 
+Before that he wants to verify all the words are spelled in a right way. In case of any misspelled word found, he has to replace it throughout the document
+without any fail. Santhosh needs an application to make his find and replace job easier. 
+Implement the given scenario and code accordingly. Refer the samples for read and display the data. 
+[Search and replace should be case sensitive. Input can contain words separated by space and full stop.] 
+
+Sample Input 1: 
+Enter the string: 
+Have a good day 
+Enter the word to be searched: 
+good 
+Enter the word to be replaced: 
+nice 
+Sample Output 1: 
+Have a nice day 
+Sample Input 2: 
+Enter the string: 
+Have a good day 
+Enter the word to be searched: 
+nice 
+Enter the word to be replaced: 
+nice 
+Sample Output 2: 
+The word nice not found 
+Sample Input 3: 
+Enter the string: 
+Google PlayStore is a digital distribution service operated and developed by Google. 
+Enter the word to be searched: 
+Google 
+Enter the word to be replaced: 
+Yahoo 
+Sample Output 3: 
+Yahoo PlayStore is a digital distribution service operated and developed by Yahoo
